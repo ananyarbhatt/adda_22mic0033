@@ -21,8 +21,5 @@ jobs:
 
 
 
-    - name: Make build script executable
-      run: chmod +x ./build.sh
-
     - name: Build application
       run: ./build.sh
